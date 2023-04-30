@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimscapeMultibodyImportXML xmlns="urn:mathworks:SimscapeMultibody:import"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            version="2.0">
+   <Created by="Wen Hao Lye" from="Onshape" on="04/25/23||16:56:17"
+            using="Simscape Multibody Exporter"/>
+   <ModelUnits length="centimeter" mass="kilogram"/>
+   <DataUnits length="meter" mass="kilogram"/>
+   <RootAssembly name="Drone" uid="121523fd27d5ae7aa7def173"
+                 version="w-d9bd5e8ce6cb263cd022240e">
+      <InstanceTree>
+         <Instance entityUid="d432d3ecd4d08094256ae1f1" name="Arm-Motor &lt;6&gt;"
+                   uid="M09d74mCVahOaGpCs">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.012596327 -0.082676850 0.037719850 </Translation>
+            </Transform>
+            <Instance entityUid="JHD*:*25746d3085c3dbc004cb18dc" grounded="true" name="Arm &lt;1&gt;"
+                      uid="MHpfxZlDCzN58vQfO">
+               <Transform>
+                  <Rotation>-0.707106781 0.707106781 0.000000000 -0.707106781 -0.707106781 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.021621748 0.056386084 -0.047731900 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*9ad2165dd186b693909eaa95" name="Blade &lt;1&gt;"
+                      uid="MvCRIfyrNUc/JId73">
+               <Transform>
+                  <Rotation>0.024596761 0.999697454 0.000000000 -0.999697454 0.024596761 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.170874248 -0.008729061 -0.012731900 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*6fcee19480f18af79c77407d" name="Motor &lt;1&gt;"
+                      uid="Mfuyc2czHoCi4hia6">
+               <Transform>
+                  <Rotation>-0.316043032 0.948744856 0.000000000 -0.948744856 -0.316043032 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.170114172 -0.077964204 -0.037731900 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="d432d3ecd4d08094256ae1f1" name="Arm-Motor &lt;2&gt;"
+                   uid="MkSj9US9CH9Uq8wlM">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.139135062 0.118890271 -0.034568730 </Translation>
+            </Transform>
+            <Instance entityUid="JHD*:*9ad2165dd186b693909eaa95" name="Blade &lt;1&gt;"
+                      uid="MvCRIfyrNUc/JId73">
+               <Transform>
+                  <Rotation>0.024596761 0.999697454 0.000000000 -0.999697454 0.024596761 0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.019571865 0.106688666 0.059556680 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*25746d3085c3dbc004cb18dc" grounded="true" name="Arm &lt;1&gt;"
+                      uid="MHpfxZlDCzN58vQfO">
+               <Transform>
+                  <Rotation>0.707106781 -0.707106781 -0.000000000 0.707106781 0.707106781 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.128160483 -0.096896766 0.024556680 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*6fcee19480f18af79c77407d" name="Motor &lt;1&gt;"
+                      uid="Mfuyc2czHoCi4hia6">
+               <Transform>
+                  <Rotation>-0.316043032 0.948744856 0.000000000 -0.948744856 -0.316043032 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.020331941 0.037453523 0.034556680 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="d432d3ecd4d08094256ae1f1" name="Arm-Motor &lt;7&gt;"
+                   uid="MvRoTMBFg8Ya5JqbU">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.118123575 0.147175729 0.074462306 </Translation>
+            </Transform>
+            <Instance entityUid="JHD*:*6fcee19480f18af79c77407d" name="Motor &lt;1&gt;"
+                      uid="Mfuyc2czHoCi4hia6">
+               <Transform>
+                  <Rotation>-0.316043032 0.948744856 0.000000000 -0.948744856 -0.316043032 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.117148996 -0.373466495 -0.074474356 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*9ad2165dd186b693909eaa95" name="Blade &lt;1&gt;"
+                      uid="MvCRIfyrNUc/JId73">
+               <Transform>
+                  <Rotation>0.024596761 0.999697454 0.000000000 -0.999697454 0.024596761 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.117909073 -0.304231352 -0.049474356 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*25746d3085c3dbc004cb18dc" grounded="true" name="Arm &lt;1&gt;"
+                      uid="MHpfxZlDCzN58vQfO">
+               <Transform>
+                  <Rotation>0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.107148996 -0.173466495 -0.084474356 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="JHD*:*4c226397c42feb94e8c9c17b" grounded="true" name="Base &lt;1&gt;"
+                   uid="M9vS92ItVLnb0l3ia">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000974579 -0.002148631 -0.010012050 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="d432d3ecd4d08094256ae1f1" name="Arm-Motor &lt;4&gt;"
+                   uid="MOwx8lKIPr4JgQrhI">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.244845389 0.245877609 -0.013291725 </Translation>
+            </Transform>
+            <Instance entityUid="JHD*:*9ad2165dd186b693909eaa95" name="Blade &lt;1&gt;"
+                      uid="MvCRIfyrNUc/JId73">
+               <Transform>
+                  <Rotation>0.024596761 0.999697454 -0.000000000 -0.999697454 0.024596761 -0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.403123311 -0.020298672 0.038279675 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*25746d3085c3dbc004cb18dc" grounded="true" name="Arm &lt;1&gt;"
+                      uid="MHpfxZlDCzN58vQfO">
+               <Transform>
+                  <Rotation>-0.707106781 -0.707106781 -0.000000000 0.707106781 -0.707106781 -0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.268012946 -0.238026239 0.003279675 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*6fcee19480f18af79c77407d" name="Motor &lt;1&gt;"
+                      uid="Mfuyc2czHoCi4hia6">
+               <Transform>
+                  <Rotation>-0.316043032 0.948744856 -0.000000000 -0.948744856 -0.316043032 0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.402363234 -0.089533815 0.013279675 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="d432d3ecd4d08094256ae1f1" name="Arm-Motor &lt;3&gt;"
+                   uid="MtJRkVuRelXiMr1n+">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.028089481 0.066357292 -0.086096536 </Translation>
+            </Transform>
+            <Instance entityUid="JHD*:*6fcee19480f18af79c77407d" name="Motor &lt;1&gt;"
+                      uid="Mfuyc2czHoCi4hia6">
+               <Transform>
+                  <Rotation>-0.316043032 0.948744856 0.000000000 -0.948744856 -0.316043032 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.027114902 0.155636213 0.086084486 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*9ad2165dd186b693909eaa95" name="Blade &lt;1&gt;"
+                      uid="MvCRIfyrNUc/JId73">
+               <Transform>
+                  <Rotation>0.024596761 0.999697454 0.000000000 -0.999697454 0.024596761 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.027874979 0.224871356 0.111084486 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*25746d3085c3dbc004cb18dc" grounded="true" name="Arm &lt;1&gt;"
+                      uid="MHpfxZlDCzN58vQfO">
+               <Transform>
+                  <Rotation>-0.000000000 -1.000000000 0.000000000 1.000000000 -0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.037114902 -0.044363787 0.076084486 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="d432d3ecd4d08094256ae1f1" name="Arm-Motor &lt;8&gt;"
+                   uid="MCv5dx70bj6vj2d0U">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.281990646 0.219881237 -0.076433342 </Translation>
+            </Transform>
+            <Instance entityUid="JHD*:*25746d3085c3dbc004cb18dc" grounded="true" name="Arm &lt;1&gt;"
+                      uid="MHpfxZlDCzN58vQfO">
+               <Transform>
+                  <Rotation>0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.256873932 -0.232029867 0.066421292 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*6fcee19480f18af79c77407d" name="Motor &lt;1&gt;"
+                      uid="Mfuyc2czHoCi4hia6">
+               <Transform>
+                  <Rotation>-0.316043032 0.948744856 0.000000000 -0.948744856 -0.316043032 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.122523643 -0.380522291 0.076421292 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*9ad2165dd186b693909eaa95" name="Blade &lt;1&gt;"
+                      uid="MvCRIfyrNUc/JId73">
+               <Transform>
+                  <Rotation>0.024596761 0.999697454 0.000000000 -0.999697454 0.024596761 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.123283720 -0.311287148 0.101421292 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="d432d3ecd4d08094256ae1f1" name="Arm-Motor &lt;1&gt;"
+                   uid="Mez97zdej7AVc2j6G">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+            <Instance entityUid="JHD*:*6fcee19480f18af79c77407d" name="Motor &lt;1&gt;"
+                      uid="Mfuyc2czHoCi4hia6">
+               <Transform>
+                  <Rotation>0.241669883 -0.970358525 0.000000000 0.970358525 0.241669883 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.225116715 -0.002148631 -0.000012050 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*25746d3085c3dbc004cb18dc" grounded="true" name="Arm &lt;1&gt;"
+                      uid="MHpfxZlDCzN58vQfO">
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.025116715 0.007851369 -0.010012050 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*9ad2165dd186b693909eaa95" name="Blade &lt;1&gt;"
+                      uid="MvCRIfyrNUc/JId73">
+               <Transform>
+                  <Rotation>-0.117747692 -0.993043544 0.000000000 0.993043544 -0.117747692 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.232332175 -0.071010957 0.024987950 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="d432d3ecd4d08094256ae1f1" name="Arm-Motor &lt;5&gt;"
+                   uid="M+1RZv8+fQhEZgR3W">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.091005153 -0.180015311 -0.030404187 </Translation>
+            </Transform>
+            <Instance entityUid="JHD*:*6fcee19480f18af79c77407d" name="Motor &lt;1&gt;"
+                      uid="Mfuyc2czHoCi4hia6">
+               <Transform>
+                  <Rotation>-0.316043032 0.948744856 -0.000000000 -0.948744856 -0.316043032 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.314172709 0.177866680 0.030392137 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*25746d3085c3dbc004cb18dc" grounded="true" name="Arm &lt;1&gt;"
+                      uid="MHpfxZlDCzN58vQfO">
+               <Transform>
+                  <Rotation>-1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.114172709 0.167866680 0.020392137 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*9ad2165dd186b693909eaa95" name="Blade &lt;1&gt;"
+                      uid="MvCRIfyrNUc/JId73">
+               <Transform>
+                  <Rotation>0.024596761 0.999697454 -0.000000000 -0.999697454 0.024596761 -0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.314932786 0.247101824 0.055392137 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+      </InstanceTree>
+      <Constraints/>
+      <Joints>
+         <Weld name="Fastened1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M9vS92ItVLnb0l3ia</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.024142136 0.000000000 0.005000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Mez97zdej7AVc2j6G</Uid>
+                  <Uid>MHpfxZlDCzN58vQfO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.010000000 0.005000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M9vS92ItVLnb0l3ia</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.707106781 0.000000000 -0.707106781 0.707106781 0.000000000 -0.707106781 -0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.017071068 0.017071068 0.005000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MkSj9US9CH9Uq8wlM</Uid>
+                  <Uid>MHpfxZlDCzN58vQfO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.010000000 0.005000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M9vS92ItVLnb0l3ia</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 -0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.000000000 0.024142136 0.005000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MtJRkVuRelXiMr1n+</Uid>
+                  <Uid>MHpfxZlDCzN58vQfO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.010000000 0.005000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened4">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M9vS92ItVLnb0l3ia</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.707106781 0.000000000 0.707106781 -0.707106781 0.000000000 -0.707106781 -0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.017071068 0.017071068 0.005000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MOwx8lKIPr4JgQrhI</Uid>
+                  <Uid>MHpfxZlDCzN58vQfO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.010000000 0.005000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened5">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M9vS92ItVLnb0l3ia</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 -0.000000000 1.000000000 -1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.024142136 -0.000000000 0.005000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M+1RZv8+fQhEZgR3W</Uid>
+                  <Uid>MHpfxZlDCzN58vQfO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.010000000 0.005000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened6">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M09d74mCVahOaGpCs</Uid>
+                  <Uid>MHpfxZlDCzN58vQfO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.010000000 0.005000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M9vS92ItVLnb0l3ia</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.707106781 0.000000000 -0.707106781 -0.707106781 0.000000000 -0.707106781 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.017071068 -0.017071068 0.005000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened7">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MvRoTMBFg8Ya5JqbU</Uid>
+                  <Uid>MHpfxZlDCzN58vQfO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.010000000 0.005000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M9vS92ItVLnb0l3ia</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.024142136 0.005000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened8">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MCv5dx70bj6vj2d0U</Uid>
+                  <Uid>MHpfxZlDCzN58vQfO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.010000000 0.005000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M9vS92ItVLnb0l3ia</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.707106781 -0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.017071068 -0.017071068 0.005000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+      </Joints>
+   </RootAssembly>
+   <Assemblies>
+      <Assembly name="Arm-Motor" uid="d432d3ecd4d08094256ae1f1">
+         <ModelUnits length="centimeter" mass="kilogram"/>
+         <Constraints/>
+         <Joints>
+            <Cylindrical name="MotorFace">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MHpfxZlDCzN58vQfO</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.200000000 -0.010000000 0.005000000 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>Mfuyc2czHoCi4hia6</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.000000000 0.000000000 0.010000000 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Cylindrical>
+            <Planar name="MotorBottom">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MHpfxZlDCzN58vQfO</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.103938974 -0.010000000 0.010000000 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>Mfuyc2czHoCi4hia6</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>-0.000000000 0.000000000 0.000000000 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Planar>
+            <Revolute name="Blade">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>Mfuyc2czHoCi4hia6</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>0.000000000 1.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>-0.000000000 0.000000000 0.025000000 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MvCRIfyrNUc/JId73</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.069232892 -0.000943114 0.000000000 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Revolute>
+         </Joints>
+      </Assembly>
+   </Assemblies>
+   <Parts>
+      <Part name="Arm" uid="JHD*:*25746d3085c3dbc004cb18dc">
+         <ModelUnits length="centimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0665132741</Mass>
+            <CenterOfMass>0.103938974 -0.010000000 0.005000000 </CenterOfMass>
+            <Inertia>0.000002750 0.000240185 0.000241826 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Arm.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Diffuse a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Specular a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Base" uid="JHD*:*4c226397c42feb94e8c9c17b">
+         <ModelUnits length="centimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0203180213</Mass>
+            <CenterOfMass>-0.000000000 0.000000000 0.005000000 </CenterOfMass>
+            <Inertia>0.000003299 0.000003299 0.000006260 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Base.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Diffuse a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Specular a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Motor" uid="JHD*:*6fcee19480f18af79c77407d">
+         <ModelUnits length="centimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0172296722</Mass>
+            <CenterOfMass>-0.000000000 0.000000000 0.010192308 </CenterOfMass>
+            <Inertia>0.000001031 0.000001031 0.000000849 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Motor.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Diffuse a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Specular a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Blade" uid="JHD*:*9ad2165dd186b693909eaa95">
+         <ModelUnits length="centimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.004096</Mass>
+            <CenterOfMass>0.069232892 -0.000943114 0.000500000 </CenterOfMass>
+            <Inertia>0.000000088 0.000008738 0.000008826 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Blade.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Diffuse a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Specular a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+   </Parts>
+</SimscapeMultibodyImportXML>
